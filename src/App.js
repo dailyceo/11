@@ -284,30 +284,12 @@ function App() {
                 color: "var(--primary)",
               }}
             >
-              Mint April 08, 12:00 UTC
+              Mint is LIVE!
             </s.TextDescription>
 
 
 
 
-
-            <s.TextDescription
-              style={{
-                textAlign: "center",
-                fontSize: 40,
-                //fontWeight: "bold",
-                color: "var(--primary)",
-              }}
-            >
-              {truncate(
-                new Date(timeRemaining).toLocaleString("en-GB", {
-                  hour: "numeric",
-                  minute: "numeric",
-                  second: "numeric",
-                }),
-                10
-              )}
-            </s.TextDescription>
 
 
 
