@@ -250,16 +250,9 @@ function App() {
 
           >
 
-            <s.TextDescription
-              style={{
-                textAlign: "center",
-                fontSize: 100,
-                fontWeight: "bold",
-                color: "var(--primary)",
-              }}
-            >
-              ETHERMENTS
-            </s.TextDescription>
+
+            <s.SpacerLarge />
+            <s.SpacerLarge />
             <s.SpacerLarge />
             <s.SpacerLarge />
             <s.SpacerLarge />
